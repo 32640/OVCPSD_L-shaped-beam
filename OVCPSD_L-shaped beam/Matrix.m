@@ -1,0 +1,9 @@
+function [J,B]=Matrix(s,t,node)
+J1=[-(1-t),(1-t),(1+t),-(1+t);-(1-s),-(1+s),(1+s),(1-s)]/4;
+J=J1*[node(1,1),node(1,2);node(2,1),node(2,2);node(3,1),node(3,2);node(4,1),node(4,2)];
+DN_X_DN_Y=inv(J)*J1;
+B1=[DN_X_DN_Y(1,1),0;0,DN_X_DN_Y(2,1);DN_X_DN_Y(2,1),DN_X_DN_Y(1,1)];
+B2=[DN_X_DN_Y(1,2),0;0,DN_X_DN_Y(2,2);DN_X_DN_Y(2,2),DN_X_DN_Y(1,2)];
+B3=[DN_X_DN_Y(1,3),0;0,DN_X_DN_Y(2,3);DN_X_DN_Y(2,3),DN_X_DN_Y(1,3)];
+B4=[DN_X_DN_Y(1,4),0;0,DN_X_DN_Y(2,4);DN_X_DN_Y(2,4),DN_X_DN_Y(1,4)];
+B=[B1,B2,B3,B4];
