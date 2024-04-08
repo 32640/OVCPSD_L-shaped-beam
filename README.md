@@ -17,5 +17,6 @@ Run the MATLAB code named 'Postprocessing'.
 
 Results
 --------------
-![alt 属性文本]()
+### n=1
+![alt 属性文本](https://github.com/32640/OVCPSD_L-shaped-beam/blob/main/OVCPSD_L-shaped%20beam/n%3D1.jpg)
 
