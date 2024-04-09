@@ -11,7 +11,7 @@ Run the solver
 --------------
 Run the MATLAB code named 'stepall'.
 
-Post-processing
+Postplot
 --------------
 Run the MATLAB code named 'Postprocessing'.
 
