@@ -4,13 +4,7 @@ OVCPSD_L-shaped beam
 Description
 -----------
 The code is to solve the concurrent optimization problem of macro-structure topologies and fiber orientations for FRC structures under the stress constraints based on MATLAB. 
-
 Corresponding paper title: A new concurrent optimization method of structural topologies and continuous fiber orientations for minimum structural compliance under stress constraints
-
-MMA
---------------
-The Matlab version of the mma algorithm (Svanberg 1987) is available from Krister Svanberg, KTH, Sweden.
-Svanberg K. The method of moving asymptotes—a new method for structural optimization. International journal for numerical methods in engineering, 1987, 24(2): 359-373.
 
 Run the solver
 --------------
