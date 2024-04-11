@@ -11,6 +11,7 @@ MMA
 --------------
 The Matlab version of the mma algorithm (Svanberg 1987) is available from Krister Svanberg, KTH, Sweden.
 Svanberg K. The method of moving asymptotes—a new method for structural optimization. International journal for numerical methods in engineering, 1987, 24(2): 359-373.
+
 Run the solver
 --------------
 Run the MATLAB code named 'stepall'.
